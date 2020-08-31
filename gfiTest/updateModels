@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python manage.py makemigrations Configurator;
+python manage.py migrate;
